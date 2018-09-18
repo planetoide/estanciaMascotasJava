@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+#imagen {
+	background: url(../img/perrosygatos.png) no-repeat center fixed; 
+    background-size: cover;
+   
+}
+
+.inicio {
+	height: 100vh;
+}
+#formulario {
+	max-width: 40vw;
+	margin: auto;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+   <class name = "com.mascotas.ModeloMascota" table = "mascotas">
+      
+      <meta attribute = "class-description">
+         This class contains the product detail. 
+      </meta>
+      
+      <id name = "id" type = "int" column = "id">
+         <generator class="native"/>
+      </id>
+      
+      <property name="nombreAnimal" column="nombreanimal" type="string"/>
+      <property name="nombreDueno" column="nombredueno" type="string"/>
+      <property name="especie" column="especie" type="string"/>
+      <property name="sexo" column="sexo" type="string"/>
+      <property name="raza" column="raza" type="string"/>
+      <property name="color" column="color" type="string"/>
+      <property name="edadAprox" column="edadaprox" type="float"/>
+      <property name="estadoReproductivo" column="estadoreproductivo" type="string"/>
+      <property name="tiempoEstadia" column="tiempoEstadia" type="int"/>
+      
+   </class>
+</hibernate-mapping>
